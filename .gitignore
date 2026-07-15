@@ -1,0 +1,54 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# MemoryCaptures
+[Mm]emoryCaptures/
+
+# Recordings
+[Rr]ecordings/
+
+# Asset meta data
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# VS/Rider
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics
+crashlytics-build.properties
