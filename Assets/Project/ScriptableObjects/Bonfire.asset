@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d0ae2fbd9fd08469cb0af083af1434, type: 3}
+  m_Name: Bonfire
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\u041A\u043E\u0441\u0442\u0435\u0440"
+  description: "\u0418\u0441\u0442\u043E\u0447\u043D\u0438\u043A \u0441\u0432\u0435\u0442\u0430
+    \u0438 \u0442\u0435\u043F\u043B\u0430"
+  ingredients:
+  - item: {fileID: 11400000, guid: ec5644739d6afe0429f9d500766c9707, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 099a08caff2930f449c53d6d185487bc, type: 2}
+    amount: 1
+  result: {fileID: 0}
+  resultAmount: 1
+  placesWorldObject: 1
+  worldObjectPrefab: {fileID: 8767713073139827654, guid: fe38846c4b3667749a67a544deae13a0, type: 3}
