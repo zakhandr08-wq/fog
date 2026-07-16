@@ -52,3 +52,4 @@ Thumbs.db
 
 # Crashlytics
 crashlytics-build.properties
+.vsconfig
