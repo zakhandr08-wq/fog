@@ -186,24 +186,36 @@ public class PlayerHandSystem : MonoBehaviour
         isTorchActive = true;
         torchTimer = torchDuration;
 
-        torchLight = currentHandObject
-            .GetComponentInChildren<Light>();
+        Transform firePoint = currentHandObject.transform.Find("FirePoint");
+
+        if (firePoint == null)
+        {
+            Debug.LogWarning("FirePoint not found on torch prefab, using root");
+            firePoint = currentHandObject.transform;
+        }
+
+        torchLight = currentHandObject.GetComponentInChildren<Light>();
 
         if (torchLight == null)
         {
             var lightObj = new GameObject("TorchLight");
-            lightObj.transform.SetParent(
-                currentHandObject.transform);
-            lightObj.transform.localPosition =
-                Vector3.up * 0.3f;
+            lightObj.transform.SetParent(firePoint);
+            lightObj.transform.localPosition = Vector3.zero;
 
             torchLight = lightObj.AddComponent<Light>();
             torchLight.type = LightType.Point;
         }
+        else
+        {
+            torchLight.transform.SetParent(firePoint);
+            torchLight.transform.localPosition = Vector3.zero;
+        }
 
+        torchLight.type = LightType.Point;
         torchLight.range = torchLightRange;
         torchLight.intensity = torchLightIntensity;
         torchLight.color = torchColor;
+
         baseIntensity = torchLightIntensity;
     }
 

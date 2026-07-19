@@ -1,9 +1,8 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Bonfire : MonoBehaviour
 {
     [Header("Light")]
-    [SerializeField] private Light fireLight;
     [SerializeField] private float lightRadius = 10f;
     [SerializeField] private float lightIntensity = 2f;
     [SerializeField]
@@ -18,38 +17,103 @@ public class Bonfire : MonoBehaviour
     [SerializeField] private float flickerSpeed = 8f;
     [SerializeField] private float flickerAmount = 0.3f;
 
+    private Light fireLight;
     private float baseIntensity;
+    private ParticleSystem[] particles;
 
     private void Start()
     {
-        if (fireLight == null)
-        {
-            // Create light
-            var lightObj = new GameObject("FireLight");
-            lightObj.transform.SetParent(transform);
-            lightObj.transform.localPosition =
-                Vector3.up * 0.5f;
+        SetupLight();
+        SetupParticles();
+    }
 
-            fireLight = lightObj.AddComponent<Light>();
-            fireLight.type = LightType.Point;
+    private void SetupLight()
+    {
+        // Ищем FirePoint
+        Transform firePoint = transform.Find("FirePoint");
+
+        if (firePoint == null)
+        {
+            // Если нет FirePoint — создаём
+            GameObject fp = new GameObject("FirePoint");
+            fp.transform.SetParent(transform);
+            fp.transform.localPosition = Vector3.up * 0.5f;
+            firePoint = fp.transform;
+            Debug.LogWarning("Bonfire: FirePoint not found, created at Y=0.5");
         }
 
+        // Ищем существующий свет
+        fireLight = GetComponentInChildren<Light>();
+
+        if (fireLight == null)
+        {
+            // Создаём новый свет
+            GameObject lightObj = new GameObject("FireLight");
+            lightObj.transform.SetParent(firePoint);
+            lightObj.transform.localPosition = Vector3.zero;
+            fireLight = lightObj.AddComponent<Light>();
+        }
+        else
+        {
+            // Перемещаем существующий свет в FirePoint
+            fireLight.transform.SetParent(firePoint);
+            fireLight.transform.localPosition = Vector3.zero;
+        }
+
+        // Настройка
+        fireLight.type = LightType.Point;
         fireLight.range = lightRadius;
         fireLight.intensity = lightIntensity;
         fireLight.color = lightColor;
+        fireLight.shadows = LightShadows.Soft;
+
         baseIntensity = lightIntensity;
+    }
+
+    private void SetupParticles()
+    {
+        // Ищем FirePoint для партиклов тоже
+        Transform firePoint = transform.Find("FirePoint");
+
+        particles = GetComponentsInChildren<ParticleSystem>(true);
+
+        foreach (var ps in particles)
+        {
+            // Включаем если был выключен
+            ps.gameObject.SetActive(true);
+
+            // Перемещаем к FirePoint если есть
+            if (firePoint != null && ps.transform.parent != firePoint)
+            {
+                ps.transform.SetParent(firePoint);
+                ps.transform.localPosition = Vector3.zero;
+            }
+
+            // Запускаем
+            if (!ps.isPlaying)
+            {
+                ps.Clear();
+                ps.Play();
+            }
+        }
+
+        Debug.Log($"Bonfire: {particles.Length} particle systems started");
     }
 
     private void Update()
     {
-        // Flicker effect
+        UpdateFlicker();
+        RestoreSanityNearby();
+    }
+
+    private void UpdateFlicker()
+    {
+        if (fireLight == null) return;
+
         float noise = Mathf.PerlinNoise(
             Time.time * flickerSpeed, 0f);
         fireLight.intensity = baseIntensity
             + (noise - 0.5f) * flickerAmount * baseIntensity;
-
-        // Restore sanity to nearby players
-        RestoreSanityNearby();
     }
 
     private void RestoreSanityNearby()
@@ -70,8 +134,22 @@ public class Bonfire : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.yellow;
+        // Радиус света
+        Gizmos.color = new Color(1f, 0.5f, 0f, 0.3f);
+        Gizmos.DrawWireSphere(
+            transform.position, lightRadius);
+
+        // Радиус восстановления рассудка
+        Gizmos.color = new Color(0f, 1f, 0f, 0.3f);
         Gizmos.DrawWireSphere(
             transform.position, sanityRestoreRadius);
+
+        // FirePoint
+        Transform fp = transform.Find("FirePoint");
+        if (fp != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawSphere(fp.position, 0.1f);
+        }
     }
 }
