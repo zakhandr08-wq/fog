@@ -1,0 +1,1977 @@
+fileFormatVersion: 2
+guid: b92066a8875b18742a4b2e5a26ce3c6e
+ModelImporter:
+  serializedVersion: 24501
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+    searchTexturesGlobally: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'werewolf_skeleton|attack_left_back' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'NPC_Neck__Neck_' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|attack_left_claw' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'NPC_Neck__Neck_' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'werewolf_skeleton|attack_left_combo'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NPC_Neck__Neck_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NPC_Pelvis__Pelv_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|attack_right_back' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'NPC_Neck__Neck_' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'werewolf_skeleton|attack_right_claw'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NPC_Neck__Neck_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NPC_Pelvis__Pelv_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|attack_right_combo' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'NPC_Neck__Neck_' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'NPC_Pelvis__Pelv_' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|bleedout_end' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'NPC_Neck__Neck_' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'werewolf_skeleton|bleedout_start'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NPC_Neck__Neck_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|fall' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'NPC_Neck__Neck_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|feed' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'NPC_L_Clavicle__RClv_'
+      has translation animation that will be discarded.\n\t'NPC_R_Clavicle__RClv_'
+      has translation animation that will be discarded.\n\t'NPC_Neck__Neck_' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'NPC_Pelvis__Pelv_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|howl' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'NPC_Neck__Neck_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NPC_Pelvis__Pelv_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|howl_angry' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'NPC_Neck__Neck_' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'NPC_Pelvis__Pelv_' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'werewolf_skeleton|howl_forward'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NPC_Neck__Neck_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NPC_Pelvis__Pelv_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|idle' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'NPC_Neck__Neck_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|idle_angry' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'NPC_Neck__Neck_' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'werewolf_skeleton|jump' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'NPC_Neck__Neck_' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|land' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'NPC_Neck__Neck_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|run' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'NPC_Neck__Neck_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NPC_Pelvis__Pelv_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|sprint' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'NPC_Neck__Neck_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NPC_Pelvis__Pelv_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|stagger_medium' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'NPC_Neck__Neck_' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'werewolf_skeleton|stagger_small_left'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NPC_Neck__Neck_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NPC_Pelvis__Pelv_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|stagger_small_right' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'NPC_Neck__Neck_' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'werewolf_skeleton|swim'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NPC_Pelvis__Pelv_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|turn_left' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'NPC_Neck__Neck_' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'werewolf_skeleton|turn_right' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'NPC_Neck__Neck_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'werewolf_skeleton|walk' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'NPC_Neck__Neck_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NPC_Pelvis__Pelv_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: werewolf_skeleton|attack_left_back
+      takeName: werewolf_skeleton|attack_left_back
+      internalID: -7198068831241289044
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|attack_left_claw
+      takeName: werewolf_skeleton|attack_left_claw
+      internalID: -2305199692885897037
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|attack_left_combo
+      takeName: werewolf_skeleton|attack_left_combo
+      internalID: -2496311499468958318
+      firstFrame: 0
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|attack_right_back
+      takeName: werewolf_skeleton|attack_right_back
+      internalID: 4394048038289661350
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|attack_right_claw
+      takeName: werewolf_skeleton|attack_right_claw
+      internalID: 2349215768986152234
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|attack_right_combo
+      takeName: werewolf_skeleton|attack_right_combo
+      internalID: 8051046261299787809
+      firstFrame: 0
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|bleedout_end
+      takeName: werewolf_skeleton|bleedout_end
+      internalID: -4535828520135906942
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|bleedout_idle
+      takeName: werewolf_skeleton|bleedout_idle
+      internalID: 7567658297014478803
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|bleedout_start
+      takeName: werewolf_skeleton|bleedout_start
+      internalID: 6749460598058950346
+      firstFrame: 0
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|fall
+      takeName: werewolf_skeleton|fall
+      internalID: 3474186917478870797
+      firstFrame: 0
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|feed
+      takeName: werewolf_skeleton|feed
+      internalID: 2434955529720738344
+      firstFrame: 0
+      lastFrame: 285
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|howl
+      takeName: werewolf_skeleton|howl
+      internalID: 2005364487650153839
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|howl_angry
+      takeName: werewolf_skeleton|howl_angry
+      internalID: -5218727279211989704
+      firstFrame: 0
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|howl_forward
+      takeName: werewolf_skeleton|howl_forward
+      internalID: -3281193536056889586
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|idle
+      takeName: werewolf_skeleton|idle
+      internalID: 2715137288258464612
+      firstFrame: 0
+      lastFrame: 273
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|idle_angry
+      takeName: werewolf_skeleton|idle_angry
+      internalID: 9116784264528669940
+      firstFrame: 0
+      lastFrame: 219
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|jump
+      takeName: werewolf_skeleton|jump
+      internalID: 6673043398593759958
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|land
+      takeName: werewolf_skeleton|land
+      internalID: 6561633155639944283
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|reference
+      takeName: werewolf_skeleton|reference
+      internalID: -8431053651886995495
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|run
+      takeName: werewolf_skeleton|run
+      internalID: 1176839180369496265
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|sprint
+      takeName: werewolf_skeleton|sprint
+      internalID: -489559199676481274
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|stagger_medium
+      takeName: werewolf_skeleton|stagger_medium
+      internalID: -538728290486246066
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|stagger_small_left
+      takeName: werewolf_skeleton|stagger_small_left
+      internalID: 5184980206356246579
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|stagger_small_right
+      takeName: werewolf_skeleton|stagger_small_right
+      internalID: 2124424784293422187
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|swim
+      takeName: werewolf_skeleton|swim
+      internalID: -689519441262267292
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|swim_idle
+      takeName: werewolf_skeleton|swim_idle
+      internalID: -9077640235968287680
+      firstFrame: 0
+      lastFrame: 87
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|turn_left
+      takeName: werewolf_skeleton|turn_left
+      internalID: -9134312976881475069
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|turn_right
+      takeName: werewolf_skeleton|turn_right
+      internalID: 9210236768852188833
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: werewolf_skeleton|walk
+      takeName: werewolf_skeleton|walk
+      internalID: -7025066859925911793
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: NPC_COM__COM__
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Thigh__LThg_
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Thigh__LThg_
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Calf__LClf_
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Calf__LClf_
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Foot__Lft__
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Foot__Lft__
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_Spine__Spn0_
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_Spine1__Spn1_
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_Head__Head_
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Clavicle__RClv_
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Clavicle__RClv_
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_UpperArm__RUar_
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_UpperArm__RUar_
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Forearm__RLar_
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Forearm__RLar_
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Hand__RHnd_
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Hand__RHnd_
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Toe0__LToe_
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Toe0__LToe_
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_EarL__EarL_Bone01
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_EarR__EarR_Bone01
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_Jaw__Jaw_
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger00__RF00_
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger01__RF01_
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger02__RF02_
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger10__RF10_
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger11__RF11_
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger12__RF12_
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger20__RF20_
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger21__RF21_
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger22__RF22_
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger30__RF30_
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger31__RF31_
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger32__RF32_
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger40__RF40_
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger41__RF41_
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger42__RF42_
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger00__RF00_
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger01__RF01_
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger02__RF02_
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger10__RF10_
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger11__RF11_
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger12__RF12_
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger20__RF20_
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger21__RF21_
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger22__RF22_
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger30__RF30_
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger31__RF31_
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger32__RF32_
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger40__RF40_
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger41__RF41_
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger42__RF42_
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_Spine2__Spn2_
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Werewolf(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: werewolf
+      parentName: Werewolf(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: werewolf_skeleton
+      parentName: Werewolf(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: NPC
+      parentName: werewolf_skeleton
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000029802326, y: -0, z: -0.7071063, w: 0.70710737}
+      scale: {x: 1, y: 0.99999964, z: 0.99999994}
+    - name: NPC_Root__Root_
+      parentName: NPC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00000002107342, y: -0.00000006322034, z: 0.0000020563602, w: -1}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: NPC_COM__COM__
+      parentName: NPC_Root__Root_
+      position: {x: 0.011478721, y: 0.00032297664, z: 0.5374749}
+      rotation: {x: -0.117247365, y: 0.13092008, z: -0.62299496, w: 0.7622272}
+      scale: {x: 0.9999998, y: 1.0000005, z: 0.99999994}
+    - name: NPC_Spine__Spn0_
+      parentName: NPC_COM__COM__
+      position: {x: 0.000016067028, y: -0.03146028, z: 0.022774555}
+      rotation: {x: -0.067027144, y: 0.014468877, z: -0.09785972, w: 0.9928351}
+      scale: {x: 0.9999998, y: 0.99999964, z: 0.9999997}
+    - name: NPC_Spine1__Spn1_
+      parentName: NPC_Spine__Spn0_
+      position: {x: -0.00000010550022, y: -0.00000043153761, z: 0.08521602}
+      rotation: {x: 0.041568514, y: 0.00000031106165, z: -0.000000033527606, w: 0.9991356}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: NPC_Spine2__Spn2_
+      parentName: NPC_Spine1__Spn1_
+      position: {x: -0.00000006198883, y: -0.00010306358, z: 0.059184793}
+      rotation: {x: 0.14589487, y: 0.00452677, z: 0.002896657, w: 0.9892856}
+      scale: {x: 0.99999946, y: 0.9999998, z: 0.99999976}
+    - name: NPC_L_Clavicle__RClv_
+      parentName: NPC_Spine2__Spn2_
+      position: {x: 0.013614254, y: 0.047286034, z: 0.15624994}
+      rotation: {x: -0.03756826, y: 0.79233044, z: -0.14565127, w: 0.59125876}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: NPC_L_UpperArm__RUar_
+      parentName: NPC_L_Clavicle__RClv_
+      position: {x: 0.0000011157989, y: 0.00000047206876, z: 0.12750116}
+      rotation: {x: 0.13267519, y: 0.0724122, z: -0.5512649, w: -0.8205247}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1.0000002}
+    - name: NPC_L_UpperarmTwist1__LUt1_
+      parentName: NPC_L_UpperArm__RUar_
+      position: {x: 0.00000012874602, y: -0.00000043869017, z: -0.00000072479247}
+      rotation: {x: -0.6438968, y: 0.2921934, z: 0.64392066, w: 0.2922092}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: NPC_L_UpperarmTwist2__LUt2_
+      parentName: NPC_L_UpperarmTwist1__LUt1_
+      position: {x: -0.042242337, y: 0.00000019073485, z: 0.0000002670288}
+      rotation: {x: -0.21182229, y: 0.000012047587, z: -0.000010624527, w: 0.9773082}
+      scale: {x: 1.0000002, y: 0.9999999, z: 0.9999999}
+    - name: NPC_L_UpperarmTwist2__LUt2__end
+      parentName: NPC_L_UpperarmTwist2__LUt2_
+      position: {x: -0, y: 0.0036714815, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_L_Forearm__RLar_
+      parentName: NPC_L_UpperArm__RUar_
+      position: {x: 0.00000017404555, y: -0.0000018668175, z: 0.19499956}
+      rotation: {x: -0.025844352, y: -0.016956422, z: -0.00084873365, w: 0.99952185}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: NPC_L_ForearmTwist2__LLt2_
+      parentName: NPC_L_Forearm__RLar_
+      position: {x: -0.0000000667572, y: 0.000000028610229, z: 0.027832026}
+      rotation: {x: -0.69094414, y: 0.15027416, z: 0.69096285, w: 0.15028074}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+    - name: NPC_L_ForearmTwist2__LLt2__end
+      parentName: NPC_L_ForearmTwist2__LLt2_
+      position: {x: -0, y: 0.0036714901, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_L_ForearmTwist1__LLt1_
+      parentName: NPC_L_Forearm__RLar_
+      position: {x: -0.0000011092424, y: 0.00000045776366, z: 0.060703404}
+      rotation: {x: -0.6914444, y: 0.14792767, z: 0.69147515, w: 0.14793263}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000005}
+    - name: NPC_L_ForearmTwist1__LLt1__end
+      parentName: NPC_L_ForearmTwist1__LLt1_
+      position: {x: -0, y: 0.003671496, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_L_Hand__RHnd_
+      parentName: NPC_L_Forearm__RLar_
+      position: {x: -0.0000045520064, y: 0.0000009155273, z: 0.18479988}
+      rotation: {x: 0.12364602, y: 0.020387022, z: 0.6583703, w: 0.742189}
+      scale: {x: 0.9999999, y: 1.0000005, z: 1.0000004}
+    - name: NPC_L_Finger40__RF40_
+      parentName: NPC_L_Hand__RHnd_
+      position: {x: -0.028753612, y: 0.0034197783, z: 0.08567601}
+      rotation: {x: 0.01938945, y: -0.035065558, z: -0.0019867984, w: 0.999195}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: NPC_L_Finger41__RF41_
+      parentName: NPC_L_Finger40__RF40_
+      position: {x: 0.00000004172325, y: 0.00000040888784, z: 0.020614589}
+      rotation: {x: 0.039711937, y: -0.00000399351, z: -0.0000014039101, w: 0.99921125}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000007}
+    - name: NPC_L_Finger42__RF42_
+      parentName: NPC_L_Finger41__RF41_
+      position: {x: 0.00000002324581, y: -0.00000005364418, z: 0.017149689}
+      rotation: {x: 0.6961228, y: -0.0000034499558, z: 0.000010805324, w: 0.7179227}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.99999976}
+    - name: NPC_L_Finger42__RF42__end
+      parentName: NPC_L_Finger42__RF42_
+      position: {x: -0, y: 0.003671503, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_L_Finger30__RF30_
+      parentName: NPC_L_Hand__RHnd_
+      position: {x: -0.013421898, y: 0.0046189306, z: 0.091094136}
+      rotation: {x: 0.024615861, y: -0.03852705, z: -0.038562648, w: 0.9982097}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999976}
+    - name: NPC_L_Finger31__RF31_
+      parentName: NPC_L_Finger30__RF30_
+      position: {x: -0.00000049352644, y: -0.0000000047683715, z: 0.031781696}
+      rotation: {x: 0.035388496, y: -0.000019114463, z: -0.000003105029, w: 0.9993737}
+      scale: {x: 1, y: 0.9999998, z: 1.0000001}
+    - name: NPC_L_Finger32__RF32_
+      parentName: NPC_L_Finger31__RF31_
+      position: {x: 0.00000041246415, y: 0.00000008523464, z: 0.022543298}
+      rotation: {x: 0.70010924, y: -0.00001678192, z: -0.000019085219, w: 0.7140358}
+      scale: {x: 1.0000002, y: 1, z: 0.9999999}
+    - name: NPC_L_Finger32__RF32__end
+      parentName: NPC_L_Finger32__RF32_
+      position: {x: -0, y: 0.0036714918, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_L_Finger20__RF20_
+      parentName: NPC_L_Hand__RHnd_
+      position: {x: 0.0032438992, y: 0.005356474, z: 0.09105705}
+      rotation: {x: 0.050439287, y: 0.0055124355, z: -0.09130811, w: 0.99452925}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: NPC_L_Finger21__RF21_
+      parentName: NPC_L_Finger20__RF20_
+      position: {x: 0.00000031232832, y: 0.000000166893, z: 0.044905376}
+      rotation: {x: 0.033720173, y: -0.0000010603104, z: 0.0000029643986, w: 0.9994313}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000004}
+    - name: NPC_L_Finger22__RF22_
+      parentName: NPC_L_Finger21__RF21_
+      position: {x: 0.00000016212464, y: 0.00000004053116, z: 0.02171575}
+      rotation: {x: 0.70088416, y: -0.000009964445, z: -0.000017415421, w: 0.71327513}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000008}
+    - name: NPC_L_Finger22__RF22__end
+      parentName: NPC_L_Finger22__RF22_
+      position: {x: -0, y: 0.003671506, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_L_Finger10__RF10_
+      parentName: NPC_L_Hand__RHnd_
+      position: {x: 0.019826021, y: 0.003807435, z: 0.086612254}
+      rotation: {x: 0.027244996, y: 0.0647124, z: -0.089596614, w: 0.9935001}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: NPC_L_Finger11__RF11_
+      parentName: NPC_L_Finger10__RF10_
+      position: {x: 0.00000045746563, y: 0.0000005668402, z: 0.0395893}
+      rotation: {x: 0.03382392, y: 0.0000008568165, z: -0.0000010197979, w: 0.99942786}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000006}
+    - name: NPC_L_Finger12__RF12_
+      parentName: NPC_L_Finger11__RF11_
+      position: {x: 0.00000024080276, y: 0.00000013828277, z: 0.018615907}
+      rotation: {x: 0.6994402, y: -0.000006774774, z: -0.0000029343598, w: 0.7146911}
+      scale: {x: 0.9999999, y: 1.0000006, z: 1.0000004}
+    - name: NPC_L_Finger12__RF12__end
+      parentName: NPC_L_Finger12__RF12_
+      position: {x: -0, y: 0.0036715025, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_L_Finger00__RF00_
+      parentName: NPC_L_Hand__RHnd_
+      position: {x: 0.024182994, y: -0.017319487, z: 0.035441637}
+      rotation: {x: -0.20532398, y: 0.3648724, z: -0.57821184, w: 0.7002724}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: NPC_L_Finger01__RF01_
+      parentName: NPC_L_Finger00__RF00_
+      position: {x: 0.00003389746, y: -0.0000001168251, z: 0.019882}
+      rotation: {x: 0.034990113, y: -0.0040998454, z: 0.022594688, w: 0.9991238}
+      scale: {x: 0.9999997, y: 0.99999946, z: 0.99999964}
+    - name: NPC_L_Finger02__RF02_
+      parentName: NPC_L_Finger01__RF01_
+      position: {x: -0.00000014483928, y: 0.00000029802322, z: 0.02191078}
+      rotation: {x: 0.69756496, y: -0.011917874, z: -0.01128927, w: 0.7163335}
+      scale: {x: 1, y: 0.9999999, z: 1.0000002}
+    - name: NPC_L_Finger02__RF02__end
+      parentName: NPC_L_Finger02__RF02_
+      position: {x: -0, y: 0.0036714945, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_R_Clavicle__RClv_
+      parentName: NPC_Spine2__Spn2_
+      position: {x: -0.01361392, y: 0.047286622, z: 0.15624967}
+      rotation: {x: -0.03756897, y: -0.79233325, z: 0.14565091, w: 0.59125495}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
+    - name: NPC_R_UpperArm__RUar_
+      parentName: NPC_R_Clavicle__RClv_
+      position: {x: 0.00000089704986, y: -0.00000039696693, z: 0.1275006}
+      rotation: {x: -0.13267425, y: 0.072416455, z: -0.55126977, w: 0.82052124}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000011}
+    - name: NPC_R_UpperarmTwist1__RUt1_
+      parentName: NPC_R_UpperArm__RUar_
+      position: {x: -0.0000003784895, y: -0.00000041604042, z: -0.00000038862228}
+      rotation: {x: -0.2741079, y: 0.6518137, z: 0.27410588, w: 0.6518205}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1}
+    - name: NPC_R_UpperarmTwist2__RUt2_
+      parentName: NPC_R_UpperarmTwist1__RUt1_
+      position: {x: -0.042242408, y: 0.00000027848407, z: -0.00000044465065}
+      rotation: {x: 0.21186891, y: -0.0000105798235, z: -0.0000016242263, w: 0.97729814}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000004}
+    - name: NPC_R_UpperarmTwist2__RUt2__end
+      parentName: NPC_R_UpperarmTwist2__RUt2_
+      position: {x: -0, y: 0.0036715083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_R_Forearm__RLar_
+      parentName: NPC_R_UpperArm__RUar_
+      position: {x: -0.0000010451674, y: -0.00000022888183, z: 0.19499972}
+      rotation: {x: -0.025861736, y: 0.016981961, z: 0.00085123733, w: 0.99952096}
+      scale: {x: 1, y: 0.99999994, z: 1.0000005}
+    - name: NPC_R_ForearmTwist2__RLt2_
+      parentName: NPC_R_Forearm__RLar_
+      position: {x: 0.00000009059906, y: 0.000000030994414, z: 0.027832579}
+      rotation: {x: -0.043743093, y: 0.7057317, z: 0.04374813, w: 0.7057729}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000005}
+    - name: NPC_R_ForearmTwist2__RLt2__end
+      parentName: NPC_R_ForearmTwist2__RLt2_
+      position: {x: -0, y: 0.003671488, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_R_ForearmTwist1__RLt1_
+      parentName: NPC_R_Forearm__RLar_
+      position: {x: -0.0000031819939, y: -0.0000011563301, z: 0.060703192}
+      rotation: {x: -0.0526035, y: 0.7051246, z: 0.052606422, w: 0.70517}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000002}
+    - name: NPC_R_ForearmTwist1__RLt1__end
+      parentName: NPC_R_ForearmTwist1__RLt1_
+      position: {x: -0, y: 0.0036714983, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_R_Hand__RHnd_
+      parentName: NPC_R_Forearm__RLar_
+      position: {x: -0.000005957186, y: -0.0000037932396, z: 0.18479943}
+      rotation: {x: 0.12367825, y: -0.020400489, z: -0.6583592, w: 0.7421931}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+    - name: NPC_R_Finger40__RF40_
+      parentName: NPC_R_Hand__RHnd_
+      position: {x: 0.028753672, y: 0.003419857, z: 0.08567667}
+      rotation: {x: 0.019375255, y: 0.035069223, z: 0.0019744055, w: 0.9991951}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000006}
+    - name: NPC_R_Finger41__RF41_
+      parentName: NPC_R_Finger40__RF40_
+      position: {x: -0.00000006198883, y: -0.00000022411346, z: 0.020614184}
+      rotation: {x: 0.03973363, y: -0.0000027343624, z: -0.00000081100717, w: 0.99921036}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: NPC_R_Finger42__RF42_
+      parentName: NPC_R_Finger41__RF41_
+      position: {x: 0.00000018596648, y: 0.000000035762785, z: 0.017149998}
+      rotation: {x: -0.69610584, y: -0.00000067770424, z: 0.0000074288464, w: -0.71793926}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: NPC_R_Finger42__RF42__end
+      parentName: NPC_R_Finger42__RF42_
+      position: {x: -0, y: 0.0036714992, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_R_Finger30__RF30_
+      parentName: NPC_R_Hand__RHnd_
+      position: {x: 0.013422375, y: 0.0046191216, z: 0.09109426}
+      rotation: {x: 0.02460576, y: 0.038533352, z: 0.038552746, w: 0.9982101}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000005}
+    - name: NPC_R_Finger31__RF31_
+      parentName: NPC_R_Finger30__RF30_
+      position: {x: 0.0000005340576, y: -0.0000004863739, z: 0.03178151}
+      rotation: {x: 0.035405528, y: 0.00001547113, z: 0.0000030630035, w: 0.9993731}
+      scale: {x: 0.9999999, y: 0.99999976, z: 1}
+    - name: NPC_R_Finger32__RF32_
+      parentName: NPC_R_Finger31__RF31_
+      position: {x: -0.00000033140182, y: 0.0000003004074, z: 0.022543116}
+      rotation: {x: -0.70009863, y: 0.0000000060590524, z: -0.0000034662141, w: -0.7140462}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000005}
+    - name: NPC_R_Finger32__RF32__end
+      parentName: NPC_R_Finger32__RF32_
+      position: {x: -0, y: 0.0036714962, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_R_Finger20__RF20_
+      parentName: NPC_R_Hand__RHnd_
+      position: {x: -0.0032432699, y: 0.005357461, z: 0.09105744}
+      rotation: {x: 0.05043496, y: -0.005515773, z: 0.091297194, w: 0.9945304}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000004}
+    - name: NPC_R_Finger21__RF21_
+      parentName: NPC_R_Finger20__RF20_
+      position: {x: 0.00000010728836, y: 0.00000017166137, z: 0.04490528}
+      rotation: {x: 0.03372114, y: -0.0000040200543, z: -0.0000030446392, w: 0.9994313}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000004}
+    - name: NPC_R_Finger22__RF22_
+      parentName: NPC_R_Finger21__RF21_
+      position: {x: 0.00000017404555, y: 0.000000038146972, z: 0.021716094}
+      rotation: {x: -0.70089537, y: 0.000005311798, z: 0.000004077846, w: -0.71326417}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.9999999}
+    - name: NPC_R_Finger22__RF22__end
+      parentName: NPC_R_Finger22__RF22_
+      position: {x: -0, y: 0.003671506, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_R_Finger10__RF10_
+      parentName: NPC_R_Hand__RHnd_
+      position: {x: -0.019825792, y: 0.003808756, z: 0.08661263}
+      rotation: {x: 0.027235497, y: -0.06471608, z: 0.089590564, w: 0.9935007}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: NPC_R_Finger11__RF11_
+      parentName: NPC_R_Finger10__RF10_
+      position: {x: 0.000000038146972, y: 0.0000000047683715, z: 0.03958918}
+      rotation: {x: -0.033834018, y: 0.000003293156, z: -0.00000032642848, w: -0.9994275}
+      scale: {x: 1.0000004, y: 0.99999964, z: 1.0000001}
+    - name: NPC_R_Finger12__RF12_
+      parentName: NPC_R_Finger11__RF11_
+      position: {x: 0.00000007152557, y: 0.000000052452087, z: 0.018616354}
+      rotation: {x: 0.6994259, y: 0.0000022708846, z: -0.00000080103274, w: 0.7147053}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: NPC_R_Finger12__RF12__end
+      parentName: NPC_R_Finger12__RF12_
+      position: {x: -0, y: 0.0036715025, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_R_Finger00__RF00_
+      parentName: NPC_R_Hand__RHnd_
+      position: {x: -0.024182806, y: -0.017319346, z: 0.035441935}
+      rotation: {x: -0.20531872, y: -0.36486667, z: 0.5782099, w: 0.70027846}
+      scale: {x: 0.9999997, y: 1.0000006, z: 1.0000004}
+    - name: NPC_R_Finger01__RF01_
+      parentName: NPC_R_Finger00__RF00_
+      position: {x: -0.000033714772, y: 0.000000088214875, z: 0.019882252}
+      rotation: {x: 0.03498302, y: 0.00409919, z: -0.022586627, w: 0.9991243}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1}
+    - name: NPC_R_Finger02__RF02_
+      parentName: NPC_R_Finger01__RF01_
+      position: {x: 0.000000019073486, y: 0.00000006437301, z: 0.021911072}
+      rotation: {x: 0.69758224, y: 0.011932266, z: 0.011289998, w: 0.7163165}
+      scale: {x: 0.9999996, y: 0.99999994, z: 1.0000004}
+    - name: NPC_R_Finger02__RF02__end
+      parentName: NPC_R_Finger02__RF02_
+      position: {x: -0, y: 0.00367149, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Neck__Neck_
+      parentName: NPC_Spine2__Spn2_
+      position: {x: 0.00000026226044, y: -0.029388007, z: 0.17178522}
+      rotation: {x: -0.47957194, y: -0.04568615, z: -0.05311787, w: 0.87470114}
+      scale: {x: 1, y: 1.0000007, z: 0.99999994}
+    - name: NPC_Head__Head_
+      parentName: NPC_Neck__Neck_
+      position: {x: 0.0000318861, y: 0.000008072853, z: 0.14462568}
+      rotation: {x: 0.6834433, y: 0.05404128, z: 0.043538507, w: 0.7266975}
+      scale: {x: 1.0000004, y: 0.99999976, z: 0.9999999}
+    - name: NPC_EarR__EarR_Bone01
+      parentName: NPC_Head__Head_
+      position: {x: -0.03889822, y: -0.0170081, z: 0.04825671}
+      rotation: {x: 0.52714235, y: -0.23932704, z: -0.1347781, w: 0.8041632}
+      scale: {x: 0.99999934, y: 0.9999998, z: 0.99999964}
+    - name: NPC_EarR__EarR_Bone02
+      parentName: NPC_EarR__EarR_Bone01
+      position: {x: 0.00000042438506, y: -0.00000033140182, z: 0.06000066}
+      rotation: {x: 0.0018097754, y: -0.0000057369457, z: 0.0000035762778, w: 0.99999845}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: NPC_EarR__EarR_Bone02_end
+      parentName: NPC_EarR__EarR_Bone02
+      position: {x: -0, y: 0.0036714715, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_EarL__EarL_Bone01
+      parentName: NPC_Head__Head_
+      position: {x: 0.03889784, y: -0.017009586, z: 0.04825308}
+      rotation: {x: -0.52714837, y: -0.23932822, z: -0.1347712, w: -0.80416006}
+      scale: {x: 0.9999997, y: 0.9999999, z: 0.99999946}
+    - name: NPC_EarL__EarL_Bone02
+      parentName: NPC_EarL__EarL_Bone01
+      position: {x: 0.000000500679, y: -0.00000021457672, z: 0.060000684}
+      rotation: {x: 0.0018130238, y: 0.000005856155, z: -0.000002458691, w: 0.9999984}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+    - name: NPC_EarL__EarL_Bone02_end
+      parentName: NPC_EarL__EarL_Bone02
+      position: {x: -0, y: 0.003671519, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Jaw__Jaw_
+      parentName: NPC_Head__Head_
+      position: {x: 0.0013585805, y: 0.004954939, z: -0.028352741}
+      rotation: {x: -0.75910735, y: 0.000002712011, z: 0.000004408182, w: 0.65096545}
+      scale: {x: 0.9999996, y: 0.9999998, z: 0.99999964}
+    - name: NPC_Jaw__Jaw__end
+      parentName: NPC_Jaw__Jaw_
+      position: {x: -0, y: 0.0036714838, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Pelvis__Pelv_
+      parentName: NPC_COM__COM__
+      position: {x: -0.000000017285346, y: -0.0016076958, z: -0.0004864189}
+      rotation: {x: 0.02995203, y: 0.004875366, z: -0.09880328, w: 0.99464417}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: TailBone01
+      parentName: NPC_Pelvis__Pelv_
+      position: {x: -0.00000012397766, y: -0.07962683, z: -0.02468725}
+      rotation: {x: -0.96946394, y: -0.0000008182832, z: -0.000003675464, w: -0.24523379}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000011}
+    - name: TailBone02
+      parentName: TailBone01
+      position: {x: 0.000000027418135, y: -0.00000026345253, z: 0.060000505}
+      rotation: {x: 0.00071424246, y: 0.0000006386417, z: 0.0000008092186, w: 0.9999998}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.99999994}
+    - name: TailBone03
+      parentName: TailBone02
+      position: {x: 0.00000011205673, y: 0.00000000834465, z: 0.059999928}
+      rotation: {x: -0.030315315, y: 0.000001341184, z: -0.0000001958606, w: 0.9995404}
+      scale: {x: 1.0000006, y: 0.9999998, z: 1.0000004}
+    - name: TailBone04
+      parentName: TailBone03
+      position: {x: 0.00000008702278, y: -0.00000018179416, z: 0.06000041}
+      rotation: {x: -0.10294505, y: -0.0000019176123, z: -0.0000008295374, w: 0.994687}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000006}
+    - name: TailBone05
+      parentName: TailBone04
+      position: {x: -0.00000004053116, y: -0.00000028967855, z: 0.059999693}
+      rotation: {x: -0.096785165, y: 0.0000015630632, z: 0.00000075331405, w: 0.99530536}
+      scale: {x: 1.0000005, y: 0.9999997, z: 1.0000006}
+    - name: TailBone05_end
+      parentName: TailBone05
+      position: {x: -0, y: 0.0036714743, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_R_Thigh__LThg_
+      parentName: NPC_Pelvis__Pelv_
+      position: {x: -0.039690837, y: 0.000002615899, z: -0.00000035218895}
+      rotation: {x: 0.027529642, y: -0.9653532, z: -0.24927342, w: 0.07209801}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: NPC_R_Calf__LClf_
+      parentName: NPC_R_Thigh__LThg_
+      position: {x: -0.0000019955635, y: -0.00000094175334, z: 0.22758399}
+      rotation: {x: -0.31935555, y: 0.090190455, z: 0.00095482543, w: -0.9433329}
+      scale: {x: 1, y: 0.99999976, z: 1.0000001}
+    - name: NPC_R_Foot__Lft__
+      parentName: NPC_R_Calf__LClf_
+      position: {x: 0.00000020265578, y: 0.00000018596648, z: 0.19085638}
+      rotation: {x: 0.4643518, y: -0.02478874, z: 0.14221768, w: -0.87380606}
+      scale: {x: 1, y: 0.9999995, z: 1.0000006}
+    - name: NPC_R_Toe0__LToe_
+      parentName: NPC_R_Foot__Lft__
+      position: {x: 0.00000023745, y: -0.0000988397, z: 0.15006712}
+      rotation: {x: -0.49476832, y: -0.0015142502, z: -0.00086236733, w: 0.86902314}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: NPC_R_Toe0__LToe__end
+      parentName: NPC_R_Toe0__LToe_
+      position: {x: -0, y: 0.0036714934, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_L_Thigh__LThg_
+      parentName: NPC_Pelvis__Pelv_
+      position: {x: 0.039690617, y: 0.0000024104118, z: 0.00000034570692}
+      rotation: {x: -0.027526269, y: -0.96535337, z: -0.24927215, w: -0.07210253}
+      scale: {x: 0.99999964, y: 1.0000001, z: 0.99999964}
+    - name: NPC_L_Calf__LClf_
+      parentName: NPC_L_Thigh__LThg_
+      position: {x: 0.0000006580353, y: -0.000000821352, z: 0.2275841}
+      rotation: {x: 0.31935266, y: 0.09019518, z: 0.0010264812, w: 0.94333327}
+      scale: {x: 1, y: 0.9999998, z: 1.0000004}
+    - name: NPC_L_Foot__Lft__
+      parentName: NPC_L_Calf__LClf_
+      position: {x: 0.00000037908552, y: 0.0000010561943, z: 0.19085617}
+      rotation: {x: -0.46434364, y: -0.024785684, z: 0.1421471, w: 0.8738221}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000002}
+    - name: NPC_L_Toe0__LToe_
+      parentName: NPC_L_Foot__Lft__
+      position: {x: 0.00000012353063, y: -0.00009749591, z: 0.15006712}
+      rotation: {x: -0.49476346, y: 0.0015202718, z: 0.0008632836, w: 0.8690259}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: NPC_L_Toe0__LToe__end
+      parentName: NPC_L_Toe0__LToe_
+      position: {x: -0, y: 0.0036714934, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

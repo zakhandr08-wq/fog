@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float sprintSpeed = 7f;
     [SerializeField] private float gravity = -15f;
     [SerializeField] private float jumpHeight = 1.2f;
+    
 
     [Header("Look")]
     [SerializeField] private float mouseSensitivity = 2f;
@@ -91,20 +92,51 @@ public class PlayerController : MonoBehaviour
         Cursor.visible = false;
     }
 
+    // В начале Update добавь:
     private void Update()
     {
+        // Блокировка при консоли
+        if (DebugConsole.IsOpen) return;
+
+        // Всегда работают:
         HandleLook();
-        HandleMovement();
-        HandleJump();
         HandleStamina();
-        HandleHeadBob();
         HandleLanding();
         ApplyCameraOffset();
+
+        // Проверка на падение
+        var health = GetComponent<PlayerHealth>();
+        bool canMove = health == null
+            || (!health.IsDowned && !health.IsDead);
+
+        if (canMove)
+        {
+            HandleMovement();
+            HandleJump();
+            HandleHeadBob();
+        }
+        else
+        {
+            // Только гравитация без движения
+            HandleGravityOnly();
+        }
     }
-    /// <summary>
-    /// Сбрасывает вертикальную скорость.
-    /// Вызывается при телепорте чтобы не подбрасывало.
-    /// </summary>
+
+    private void HandleGravityOnly()
+    {
+        if (controller.isGrounded && verticalVelocity < 0f)
+            verticalVelocity = -2f;
+
+        verticalVelocity += gravity * Time.deltaTime;
+
+        Vector3 move = Vector3.zero;
+        move.y = verticalVelocity;
+        controller.Move(move * Time.deltaTime);
+
+        // Сбросить движение
+        isSprinting = false;
+        isMoving = false;
+    }
     public void ResetVerticalVelocity()
     {
         verticalVelocity = 0f;

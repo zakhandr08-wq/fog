@@ -1,16 +1,24 @@
-using UnityEngine;
-
-public class PlayerState : MonoBehaviour
+﻿public enum PlayerState
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    // Обычные
+    Idle,
+    Walking,
+    Running,
+    Jumping,
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // Раненые
+    WoundedIdle,
+    WoundedWalking,
+    WoundedRunning,
+    WoundedJumping,
+
+    // Тяжело раненые
+    HeavyWoundedIdle,
+    HeavyWoundedWalking,
+    HeavyWoundedRunning,
+    HeavyWoundedJumping,
+
+    // Особые (без движения)
+    Downed,
+    Dead
 }
