@@ -2,6 +2,13 @@
 
 public class Bonfire : MonoBehaviour
 {
+    [Header("Audio")]
+    [SerializeField] private AudioClip fireLoopClip;
+    [SerializeField] private float fireVolume = 0.6f;
+    [SerializeField] private float fireMaxDistance = 15f;
+
+    private AudioSource fireAudio;
+
     [Header("Light")]
     [SerializeField] private float lightRadius = 10f;
     [SerializeField] private float lightIntensity = 2f;
@@ -25,6 +32,30 @@ public class Bonfire : MonoBehaviour
     {
         SetupLight();
         SetupParticles();
+        SetupAudio();
+    }
+
+    private void SetupAudio()
+    {
+        if (fireLoopClip == null) return;
+
+        Transform firePoint = transform.Find("FirePoint");
+        Transform audioParent = firePoint != null
+            ? firePoint : transform;
+
+        GameObject audioObj = new GameObject("FireAudio");
+        audioObj.transform.SetParent(audioParent);
+        audioObj.transform.localPosition = Vector3.zero;
+
+        fireAudio = audioObj.AddComponent<AudioSource>();
+        fireAudio.clip = fireLoopClip;
+        fireAudio.loop = true;
+        fireAudio.playOnAwake = true;
+        fireAudio.volume = fireVolume;
+        fireAudio.spatialBlend = 1f;
+        fireAudio.maxDistance = fireMaxDistance;
+        fireAudio.rolloffMode = AudioRolloffMode.Logarithmic;
+        fireAudio.Play();
     }
 
     private void SetupLight()

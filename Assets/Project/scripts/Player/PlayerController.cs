@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
@@ -7,7 +8,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float sprintSpeed = 7f;
     [SerializeField] private float gravity = -15f;
     [SerializeField] private float jumpHeight = 1.2f;
-    
 
     [Header("Look")]
     [SerializeField] private float mouseSensitivity = 2f;
@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float staminaDrain = 10f;
     [SerializeField] private float staminaRegen = 8f;
     [SerializeField] private float staminaRegenDelay = 1f;
-    [SerializeField] private float jumpStaminaCost = 15f;
+    [SerializeField] private float jumpStaminaCost = 5f;
 
     [Header("Head Bob")]
     [SerializeField] private float walkBobSpeed = 10f;
@@ -33,10 +33,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float landingDip = 0.15f;
     [SerializeField] private float landingDipSpeed = 10f;
 
+    [Header("Jump Audio")]
+    [SerializeField] private AudioSource oneShotAudio;
+    [SerializeField] private AudioClip jumpSound;
+    [SerializeField] private float jumpVolume = 0.5f;
+
     // Components
     private CharacterController controller;
     private Transform cameraHolder;
     private Camera playerCamera;
+    private PlayerHealth health;
 
     // Movement state
     private float verticalVelocity;
@@ -69,11 +75,12 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         controller = GetComponent<CharacterController>();
+        health = GetComponent<PlayerHealth>();
+
         cameraHolder = transform.Find("CameraHolder");
 
         if (cameraHolder == null)
         {
-            // Fallback: find camera directly
             playerCamera = GetComponentInChildren<Camera>();
             cameraHolder = playerCamera.transform.parent;
         }
@@ -92,20 +99,15 @@ public class PlayerController : MonoBehaviour
         Cursor.visible = false;
     }
 
-    // В начале Update добавь:
     private void Update()
     {
-        // Блокировка при консоли
         if (DebugConsole.IsOpen) return;
 
-        // Всегда работают:
         HandleLook();
         HandleStamina();
         HandleLanding();
         ApplyCameraOffset();
 
-        // Проверка на падение
-        var health = GetComponent<PlayerHealth>();
         bool canMove = health == null
             || (!health.IsDowned && !health.IsDead);
 
@@ -117,7 +119,6 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            // Только гравитация без движения
             HandleGravityOnly();
         }
     }
@@ -133,13 +134,8 @@ public class PlayerController : MonoBehaviour
         move.y = verticalVelocity;
         controller.Move(move * Time.deltaTime);
 
-        // Сбросить движение
         isSprinting = false;
         isMoving = false;
-    }
-    public void ResetVerticalVelocity()
-    {
-        verticalVelocity = 0f;
     }
 
     private void HandleLook()
@@ -162,7 +158,6 @@ public class PlayerController : MonoBehaviour
         float moveX = Input.GetAxis("Horizontal");
         float moveZ = Input.GetAxis("Vertical");
 
-        // Sprint check
         bool wantsToSprint = Input.GetKey(KeyCode.LeftShift);
         isSprinting = wantsToSprint
             && currentStamina > 0f
@@ -171,20 +166,15 @@ public class PlayerController : MonoBehaviour
 
         float speed = isSprinting ? sprintSpeed : walkSpeed;
 
-        // Direction
         Vector3 moveDir = transform.right * moveX
             + transform.forward * moveZ;
         moveDir = Vector3.ClampMagnitude(moveDir, 1f) * speed;
 
-        // Track if moving
         isMoving = moveDir.sqrMagnitude > 0.01f
             && controller.isGrounded;
 
-        // Gravity
         if (controller.isGrounded && verticalVelocity < 0f)
-        {
             verticalVelocity = -2f;
-        }
 
         verticalVelocity += gravity * Time.deltaTime;
         moveDir.y = verticalVelocity;
@@ -194,7 +184,6 @@ public class PlayerController : MonoBehaviour
 
     private void HandleJump()
     {
-        // Track falling
         if (!controller.isGrounded && verticalVelocity < 0f)
         {
             if (!isFalling)
@@ -204,7 +193,6 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        // Landing detection
         if (controller.isGrounded && !wasGrounded)
         {
             if (isFalling)
@@ -213,7 +201,6 @@ public class PlayerController : MonoBehaviour
 
                 if (fallDistance > 0.5f)
                 {
-                    // Scale dip by fall distance
                     float dipAmount = Mathf.Clamp(
                         fallDistance * 0.05f, 0.02f, landingDip);
                     landingDipOffset = -dipAmount;
@@ -225,7 +212,6 @@ public class PlayerController : MonoBehaviour
 
         wasGrounded = controller.isGrounded;
 
-        // Jump input
         if (Input.GetKeyDown(KeyCode.Space)
             && controller.isGrounded
             && currentStamina >= jumpStaminaCost)
@@ -235,10 +221,18 @@ public class PlayerController : MonoBehaviour
 
             currentStamina -= jumpStaminaCost;
             staminaRegenTimer = staminaRegenDelay;
-
-            // Reset bob
             bobTimer = 0f;
+
+            PlayJumpSound();
         }
+    }
+
+    private void PlayJumpSound()
+    {
+        if (jumpSound == null || oneShotAudio == null) return;
+
+        oneShotAudio.pitch = Random.Range(0.9f, 1.1f);
+        oneShotAudio.PlayOneShot(jumpSound, jumpVolume);
     }
 
     private void HandleStamina()
@@ -266,7 +260,6 @@ public class PlayerController : MonoBehaviour
     {
         if (!controller.isGrounded)
         {
-            // No bob in air
             targetBobOffsetY = 0f;
             return;
         }
@@ -286,7 +279,6 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            // Idle breathing
             bobSpeed = idleBobSpeed;
             bobAmount = idleBobAmount;
         }
@@ -297,38 +289,35 @@ public class PlayerController : MonoBehaviour
 
     private void HandleLanding()
     {
-        // Recover from landing dip
         if (landingDipOffset < 0f)
         {
             landingDipOffset = Mathf.SmoothDamp(
                 landingDipOffset,
                 0f,
                 ref landingDipVelocity,
-                1f / landingDipSpeed
-            );
+                1f / landingDipSpeed);
 
-            // Snap to zero when close enough
             if (Mathf.Abs(landingDipOffset) < 0.001f)
-            {
                 landingDipOffset = 0f;
-            }
         }
     }
 
     private void ApplyCameraOffset()
     {
-        // Smooth bob
         currentBobOffsetY = Mathf.Lerp(
             currentBobOffsetY,
             targetBobOffsetY,
-            Time.deltaTime * bobSmoothing
-        );
+            Time.deltaTime * bobSmoothing);
 
-        // Apply to camera holder
         float totalOffset = currentBobOffsetY + landingDipOffset;
 
         Vector3 pos = cameraHolder.localPosition;
         pos.y = defaultCameraY + totalOffset;
         cameraHolder.localPosition = pos;
+    }
+
+    public void ResetVerticalVelocity()
+    {
+        verticalVelocity = 0f;
     }
 }
